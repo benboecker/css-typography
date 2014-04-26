@@ -1,53 +1,24 @@
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
 
 
-body {
-	margin:auto;
-	margin-top:50px;
+#container 
+{
 	width: 60%;
-	max-width: 700px;
-	background-color: #ddd;
-
-	font-family: "Open Sans", Avenir, Arial, sans-serif;
-	font-size: 120%;
+	margin: 30px auto;
+	max-width: 800px;
+	font-family: 'Source Sans Pro', 'Avenir', 'Arial', 'sans-serif';
+	font-size: 130%;
 }
 
 h1 {
-	font-size:6em;
-	font-weight: normal;
-	color: #444;
+	font-size: 2em;
 }
 
-p, li {
+h2 {
+	font-size: 1.61em;
+}
+
+p {
 	font-size: 1em;
-	font-weight: 500;
-	line-height: 170%;
-	color: #000;
-	text-shadow: 0px 0px 25px #fff;
-
-	-moz-hyphens: auto;
-	-o-hyphens: auto;
-	-webkit-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
-}
-
-.quote {
-	text-indent: 2em;
-	font-variant: small-caps;
-	color: rgba(50, 50, 50, 1);
-	
-}
-
-.strikethrough {
-	text-decoration: line-through;
-}
-
-.overline {
-	text-decoration: overline;
-}
-
-.underline {
-	text-decoration: underline;
 }
